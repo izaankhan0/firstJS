@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+}
+
+.proj2, .proj3, .proj1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-button{
+    min-height: 40px;
+    width: 170px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border:solid 0px;   
+    background-color: black;
+    color: white;
+}
+.subscribed{
+    background-color: rgb(215, 215, 215);
+    color: black;
+}
+
+
+.proj2 > * {
+    margin: 10px;
+}
+.inp, .btnCalc{
+    height: 50px;
+}
+.inp{
+    width: 200px;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+}
+.btnCalc{
+    height: 54px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    border: solid 0px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.proj3 > p{
+    font-size: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.proj3 > a{
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
