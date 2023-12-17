@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Projects</title>
+    <!-- Link the first JavaScript file -->
+    <script src="domProjects.js"></script>
+    
+    <link rel="stylesheet" href="domProjects.css" />
+  </head>
+  <body>
+    <div class="proj1">
+      <h1>Youtube Subscribe Button</h1>
+      <button class="sub-button" onclick="subscriber()">Subscribe</button>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <div class="proj2">
+      <h2>Amazon Shipping Calculator</h2>
+      <p>Orders under $40 = +$10 shipping</p>
+      <p>Orders over $40 = FREE shipping</p>
+      <div class="PhANDbtn">
+
+          <input
+          class="inp"
+          onkeydown="enterListener()
+    "
+        placeholder="Cost Of Order"
+        />
+        <button onclick="orderCalculator()" class="btnCalc">Calculate</button>
+    </div>
+      <p class="totalCost"></p>
+    </div>
+    <hr />
+    <br>
+
+    <div class="proj3">
+      <p>Rock Paper Scissors Project</p>
+      <a href="./domRPS.html">CLICK HERE</a>
+    </div>
+
+  </body>
+</html>
